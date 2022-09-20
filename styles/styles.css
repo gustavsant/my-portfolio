@@ -1,0 +1,14 @@
+body {
+  padding: 30px;
+  background: #181A1B;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-section p {
+  font-size: 19px;
+}/*# sourceMappingURL=styles.css.map */

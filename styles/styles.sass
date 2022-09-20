@@ -1,0 +1,24 @@
+@mixin dsplay($flex, $justify, $align)
+  display: $flex
+  justify-content: $justify
+  align-items: $align
+
+$bg-color: #181A1B
+$main-color: #FF3717
+$white: #fff
+$grey-in-black: #D9D9D9
+$grey-in-white: #222121
+
+$primary-text-color: #E2E2E2
+$secondary-text-color: #B9B9B9
+
+body
+  padding: 30px
+  background: $bg-color
+
+.menu
+  @include dsplay(flex, space-between, center)
+
+.home-section
+  p
+    font-size: 19px
