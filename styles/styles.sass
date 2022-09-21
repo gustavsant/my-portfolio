@@ -18,7 +18,7 @@ body
   padding: 10px 0
 
 section, header
-  padding: 0 15px
+  padding: 20px 25px
 .menu
   @include dsplay(flex, space-between, center)
 
@@ -79,13 +79,14 @@ section, header
     width: 180px
     color: $grey-in-black
     margin: 30px 0
+    font-weight: 600
   p
     color: $primary-text-color
     font-size: 18px
     font-weight: normal
     line-height: 31px
   .tecs
-    margin-top: 70px
+    margin-top: 45px
     @include dsplay(flex, center, center )
     flex-direction: column
 
@@ -103,7 +104,7 @@ section, header
   overflow-y: hidden
   position: relative
 
-  padding: 10px
+  padding: 25px
   background: #FCFAF8
   h2
     line-height: 50px
@@ -111,6 +112,7 @@ section, header
     width: 180px
     color: $grey-in-white
     margin: 30px 0
+    font-weight: 600
 
   .projects
     display: grid
@@ -180,3 +182,39 @@ section, header
       color: $white
       font-weight: 600
       font-size: 16px
+
+.contact-section
+  padding: 20px 25px
+  h2
+    line-height: 50px
+    font-size: 45px
+    width: 180px
+    color: $grey-in-black
+    margin: 30px 0
+    font-weight: 600
+  p
+    color: #E2E2E2
+    font-size: 16px
+    font-weight: normal
+    line-height: 26px
+    margin-bottom: 30px
+  .contact-buttons
+    display: grid
+    grid-template-columns: 1fr 1fr
+    gap: 30px
+    .contact
+      p
+        text-align: center
+        margin: 0
+        margin-bottom: 7px
+      .contact-image-container
+        @include dsplay($flex: flex, $justify: center, $align: center)
+        flex-direction: column
+        width: 135px
+        height: 131px
+        background: #181A1B
+        box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.08)
+        border-radius: 12px
+
+        img
+          height: 80px
