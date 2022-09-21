@@ -15,7 +15,7 @@ $secondary-text-color: #B9B9B9
 body
   font-family: 'Poppins', sans-serif
   background: $bg-color
-  padding: 30px 0
+  padding: 10px 0
 
 section, header
   padding: 0 15px
@@ -36,6 +36,8 @@ section, header
       font-size: 23px
   img
     margin-top: -60px
+  .illustration
+    height: 350px
   .buttons-container
     margin-top: 50px
     @include dsplay($flex: flex, $justify: space-between, $align: center )
@@ -64,7 +66,7 @@ section, header
         font-size: 14px
         font-weight: 600
   .scroll-down-flag
-    margin-top: 60px
+    margin-top: 50px
     font-size: 12px
     span
       color: $white
@@ -83,7 +85,7 @@ section, header
     font-weight: normal
     line-height: 31px
   .tecs
-    margin-top: 40px
+    margin-top: 70px
     @include dsplay(flex, center, center )
     flex-direction: column
 
@@ -96,6 +98,11 @@ section, header
       gap: 34px
 
 .projects-section
+  height: 1920px
+  transition: .5s
+  overflow-y: hidden
+  position: relative
+
   padding: 10px
   background: #FCFAF8
   h2
@@ -158,3 +165,18 @@ section, header
 
       background-position: center top
       background-size: cover
+  .see-more-container
+    width: 100%
+    position: absolute
+    left: 50%
+    margin-left: -50%
+    bottom: 5px
+    @include dsplay(flex, $justify: center, $align: center)
+    button
+      padding: 10px 20px
+      border-radius: 12px
+      border: none
+      background: $main-color
+      color: $white
+      font-weight: 600
+      font-size: 16px

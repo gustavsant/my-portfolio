@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- SCRIPTS -->
+    <script defer src="app.js"></script>
 
     <title>Gustav Sant</title>
   </head>
@@ -32,7 +34,7 @@
         Olá! Me chamo <strong>Gustavo</strong>, e sou um Desenvolvedor Front
         End.
       </p>
-      <img src="img/illustration.svg" alt="ilustração" />
+      <img src="img/illustration.svg" alt="ilustração" class="illustration" />
       <div class="buttons-container">
         <button class="contact-button"><span>Contate-me</span></button>
         <button class="cv-button"><span>Baixar CV</span></button>
@@ -70,56 +72,6 @@
       <h2>MEUS PROJETOS</h2>
 
       <div class="projects">
-        <div class="project-container">
-          <div
-            class="project-pic"
-            style="background-image: url(../img/poke-list-print.png)"
-          ></div>
-          <div class="project-description">
-            <span class="p-title">Poké-List</span>
-            <p class="p-description">
-              Meu segundo projeto que consome API, dessa vez faço uso da PokéAPI
-              para criar uma Pokédex que pode ser filtrada pelo tipo ou geração
-              que você desejar.
-            </p>
-            <div class="p-tecnologies">
-              <img src="img/html-ico.svg" alt="" />
-              <img src="img/css-ico.svg" alt="" />
-              <img src="img/js-ico.svg" alt="" />
-            </div>
-            <div class="project-buttons">
-              <button class="repo"><i class="bi bi-github"></i></button>
-              <button class="demo">
-                <i class="bi bi-box-arrow-up-right"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="project-container">
-          <div
-            class="project-pic"
-            style="background-image: url(../img/my-weather-app-print.png)"
-          ></div>
-          <div class="project-description">
-            <span class="p-title">My Weather App</span>
-            <p class="p-description">
-              Meu primeiro projeto consumindo uma API. Nele você pode digitar no
-              prompt a cidade desejada e será retornado algumas informações
-              sobre o clima do local.
-            </p>
-            <div class="p-tecnologies">
-              <img src="img/html-ico.svg" alt="" />
-              <img src="img/css-ico.svg" alt="" />
-              <img src="img/js-ico.svg" alt="" />
-            </div>
-            <div class="project-buttons">
-              <button class="repo"><i class="bi bi-github"></i></button>
-              <button class="demo">
-                <i class="bi bi-box-arrow-up-right"></i>
-              </button>
-            </div>
-          </div>
-        </div>
         <div class="project-container">
           <div
             class="project-pic"
@@ -170,6 +122,108 @@
               </button>
             </div>
           </div>
+        </div>
+        <div class="project-container">
+          <div
+            class="project-pic"
+            style="background-image: url(../img/poke-list-print.png)"
+          ></div>
+          <div class="project-description">
+            <span class="p-title">Poké-List</span>
+            <p class="p-description">
+              Projeto que faz uso da PokéAPI, para criar uma Pokédex com filtros
+              de tipos e geração.
+            </p>
+            <div class="p-tecnologies">
+              <img src="img/html-ico.svg" alt="" />
+              <img src="img/css-ico.svg" alt="" />
+              <img src="img/js-ico.svg" alt="" />
+            </div>
+            <div class="project-buttons">
+              <button class="repo"><i class="bi bi-github"></i></button>
+              <button class="demo">
+                <i class="bi bi-box-arrow-up-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="project-container">
+          <div
+            class="project-pic"
+            style="background-image: url(../img/my-weather-app-print.png)"
+          ></div>
+          <div class="project-description">
+            <span class="p-title">My Weather App</span>
+            <p class="p-description">
+              Meu primeiro projeto consumindo uma API. Nele você pode digitar no
+              input a cidade desejada e será retornado algumas informações sobre
+              o clima do local.
+            </p>
+            <div class="p-tecnologies">
+              <img src="img/html-ico.svg" alt="" />
+              <img src="img/css-ico.svg" alt="" />
+              <img src="img/js-ico.svg" alt="" />
+            </div>
+            <div class="project-buttons">
+              <button class="repo"><i class="bi bi-github"></i></button>
+              <button class="demo">
+                <i class="bi bi-box-arrow-up-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="project-container">
+          <div
+            class="project-pic"
+            style="background-image: url(../img/to-do-list-print.png)"
+          ></div>
+          <div class="project-description">
+            <span class="p-title">Comfy To Do</span>
+            <p class="p-description">
+              Clássico projeto do To Do List, onde aprendi e pratiquei Local
+              Storage e algumas das operações do CRUD.
+            </p>
+            <div class="p-tecnologies">
+              <img src="img/html-ico.svg" alt="" />
+              <img src="img/css-ico.svg" alt="" />
+              <img src="img/js-ico.svg" alt="" />
+            </div>
+            <div class="project-buttons">
+              <button class="repo"><i class="bi bi-github"></i></button>
+              <button class="demo">
+                <i class="bi bi-box-arrow-up-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="project-container">
+          <div
+            class="project-pic"
+            style="background-image: url(../img/lol-login-screen-print.png)"
+          ></div>
+          <div class="project-description">
+            <span class="p-title">Lol Login Screen</span>
+            <p class="p-description">
+              Simples formulário em HTML e CSS tematizado de LoL, usado apenas
+              algumas linhas de JavaScript para identificar inputs válidos.
+            </p>
+            <div class="p-tecnologies">
+              <img src="img/html-ico.svg" alt="" />
+              <img src="img/css-ico.svg" alt="" />
+              <img src="img/js-ico.svg" alt="" />
+            </div>
+            <div class="project-buttons">
+              <button class="repo"><i class="bi bi-github"></i></button>
+              <button class="demo">
+                <i class="bi bi-box-arrow-up-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="see-more-container">
+          <button class="see-more-button">
+            Ver mais <i class="bi bi-chevron-down"></i>
+          </button>
         </div>
       </div>
     </section>

@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background: #181A1B;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
 section, header {
@@ -33,6 +33,9 @@ section, header {
 }
 .home-section img {
   margin-top: -60px;
+}
+.home-section .illustration {
+  height: 350px;
 }
 .home-section .buttons-container {
   margin-top: 50px;
@@ -68,7 +71,7 @@ section, header {
   font-weight: 600;
 }
 .home-section .scroll-down-flag {
-  margin-top: 60px;
+  margin-top: 50px;
   font-size: 12px;
 }
 .home-section .scroll-down-flag span {
@@ -92,7 +95,7 @@ section, header {
   line-height: 31px;
 }
 .about-section .tecs {
-  margin-top: 40px;
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,6 +112,10 @@ section, header {
 }
 
 .projects-section {
+  height: 1920px;
+  transition: 0.5s;
+  overflow-y: hidden;
+  position: relative;
   padding: 10px;
   background: #FCFAF8;
 }
@@ -187,4 +194,23 @@ section, header {
   margin-bottom: 10px;
   background-position: center top;
   background-size: cover;
+}
+.projects-section .see-more-container {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -50%;
+  bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-section .see-more-container button {
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  background: #FF3717;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
 }/*# sourceMappingURL=styles.css.map */
