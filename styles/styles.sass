@@ -18,7 +18,7 @@ body
   padding: 30px 0
 
 section, header
-  padding: 0 30px
+  padding: 0 15px
 .menu
   @include dsplay(flex, space-between, center)
 
@@ -64,25 +64,26 @@ section, header
         font-size: 14px
         font-weight: 600
   .scroll-down-flag
-    margin-top: 40px
+    margin-top: 60px
     font-size: 12px
     span
       color: $white
 
 .about-section
-  margin-bottom: 40px
+  margin-bottom: 55px
   h2
+    line-height: 50px
     font-size: 45px
     width: 180px
     color: $grey-in-black
-    margin-bottom: 10px
+    margin: 30px 0
   p
     color: $primary-text-color
     font-size: 18px
     font-weight: normal
     line-height: 31px
   .tecs
-    margin-top: 30px
+    margin-top: 40px
     @include dsplay(flex, center, center )
     flex-direction: column
 
@@ -95,14 +96,20 @@ section, header
       gap: 34px
 
 .projects-section
-  padding: 30px
+  padding: 10px
   background: #FCFAF8
   h2
+    line-height: 50px
     font-size: 45px
     width: 180px
     color: $grey-in-white
-    margin: 0
-    margin-bottom: 20px
+    margin: 30px 0
+
+  .projects
+    display: grid
+    grid-template-columns: 1fr
+    gap: 20px
+
   .project-container
     @include dsplay(flex, center, center )
     flex-direction: column
@@ -112,21 +119,21 @@ section, header
       padding: 10px
     .p-title
       font-size: 24px
-      margin-top: 50px
+      padding-bottom: 50px
       color: $primary-text-color
       font-weight: 500
     .p-description
       color: $secondary-text-color
-      margin-top: 0
     .p-tecnologies
-      @include dsplay(flex, center, center)
+      @include dsplay(flex, start, center)
       gap: 30px
       img
         height: 30px
     .project-buttons
-      @include dsplay(flex, center, center)
+      @include dsplay(flex, start, center)
       gap: 25px
       margin: 15px 0
+      padding: 0 10px
       button
         background: none
         color: $white
@@ -134,15 +141,20 @@ section, header
         border: 1px solid
         border-radius: 12px
         padding: 7px 20px
+        i
+          font-size: 22px
       .repo
         border-color: $main-color
         background: $main-color
+      .demo
+        border-color: $main-color
+        color: $main-color
 
     .project-pic
       border-radius: 12px
       width: 100%
-      height: 280px
+      height: 210px
       margin-bottom: 10px
 
-      background-image: url(../img/poke-list-print.png)
-      background-position: center center
+      background-position: center top
+      background-size: cover
