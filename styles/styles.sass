@@ -23,8 +23,10 @@ section, header
   @include dsplay(flex, space-between, center)
 
 .home-section
+  height: 100vh
+  position: relative
   margin-bottom: 25px
-  @include dsplay(flex, center , center )
+  @include dsplay(flex, none , center )
   flex-direction: column
   p
     font-size: 19px
@@ -39,7 +41,7 @@ section, header
   .illustration
     height: 350px
   .buttons-container
-    margin-top: 50px
+    margin: 20px
     @include dsplay($flex: flex, $justify: space-between, $align: center )
 
     width: 90%
@@ -66,7 +68,9 @@ section, header
         font-size: 14px
         font-weight: 600
   .scroll-down-flag
-    margin-top: 50px
+    position: fixed
+    margin-bottom: 12px
+    bottom: 0
     font-size: 12px
     span
       color: $white
@@ -127,7 +131,7 @@ section, header
     .p-title, .p-description, .p-tecnologies
       padding: 10px
     .p-title
-      font-size: 24px
+      font-size: 22px
       padding-bottom: 50px
       color: $primary-text-color
       font-weight: 500

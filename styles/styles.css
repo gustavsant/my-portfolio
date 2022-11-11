@@ -15,9 +15,11 @@ section, header {
 }
 
 .home-section {
+  height: 100vh;
+  position: relative;
   margin-bottom: 25px;
   display: flex;
-  justify-content: center;
+  justify-content: none;
   align-items: center;
   flex-direction: column;
 }
@@ -38,7 +40,7 @@ section, header {
   height: 350px;
 }
 .home-section .buttons-container {
-  margin-top: 50px;
+  margin: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,7 +73,9 @@ section, header {
   font-weight: 600;
 }
 .home-section .scroll-down-flag {
-  margin-top: 50px;
+  position: fixed;
+  margin-bottom: 12px;
+  bottom: 0;
   font-size: 12px;
 }
 .home-section .scroll-down-flag span {
@@ -145,7 +149,7 @@ section, header {
   padding: 10px;
 }
 .projects-section .project-container .p-title {
-  font-size: 24px;
+  font-size: 22px;
   padding-bottom: 50px;
   color: #E2E2E2;
   font-weight: 500;
