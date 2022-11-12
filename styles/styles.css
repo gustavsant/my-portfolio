@@ -1,10 +1,11 @@
 body {
-  font-family: "Poppins", sans-serif;
-  background: #181A1B;
+  font-family: 'Poppins', sans-serif;
+  background: #181a1b;
   padding: 10px 0;
 }
 
-section, header {
+section,
+header {
   padding: 20px 25px;
 }
 
@@ -29,7 +30,7 @@ section, header {
   font-weight: 400;
 }
 .home-section p strong {
-  color: #FF3717;
+  color: #ff3717;
   font-weight: 400;
   font-size: 23px;
 }
@@ -39,35 +40,34 @@ section, header {
 .home-section .illustration {
   height: 350px;
 }
-.home-section .buttons-container {
+.about-section .buttons-container {
   margin: 20px;
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
   align-items: center;
   width: 90%;
-  justify-content: space-between;
 }
-.home-section .buttons-container .cv-button {
+.about-section .buttons-container .cv-button {
   background: none;
-  border: 1px solid #FF3717;
+  border: 1px solid #ff3717;
 }
-.home-section .buttons-container .cv-button span {
-  color: #FF3717;
+.about-section .buttons-container .cv-button span {
+  color: #ff3717;
 }
-.home-section .buttons-container .contact-button {
-  background: #FF3717;
-  border: 1px solid #FF3717;
+.about-section .buttons-container .contact-button {
+  background: #ff3717;
+  border: 1px solid #ff3717;
 }
-.home-section .buttons-container .contact-button span {
+.about-section .buttons-container .contact-button span {
   color: #fff;
   font-weight: 700;
 }
-.home-section .buttons-container button {
+.about-section .buttons-container button {
   width: 120px;
   height: 50px;
   border-radius: 12px;
 }
-.home-section .buttons-container button span {
+.about-section .buttons-container button span {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -89,12 +89,12 @@ section, header {
   line-height: 50px;
   font-size: 45px;
   width: 180px;
-  color: #D9D9D9;
+  color: #d9d9d9;
   margin: 30px 0;
   font-weight: 600;
 }
 .about-section p {
-  color: #E2E2E2;
+  color: #e2e2e2;
   font-size: 18px;
   font-weight: normal;
   line-height: 31px;
@@ -107,7 +107,7 @@ section, header {
   flex-direction: column;
 }
 .about-section .tecs span {
-  color: #B9B9B9;
+  color: #b9b9b9;
   margin-bottom: 15px;
 }
 .about-section .tecs .tecs-grid {
@@ -122,7 +122,7 @@ section, header {
   overflow-y: hidden;
   position: relative;
   padding: 25px;
-  background: #FCFAF8;
+  background: #fcfaf8;
 }
 .projects-section h2 {
   line-height: 50px;
@@ -142,20 +142,22 @@ section, header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #181A1B;
+  background: #181a1b;
   border-radius: 12px;
 }
-.projects-section .project-container .p-title, .projects-section .project-container .p-description, .projects-section .project-container .p-tecnologies {
+.projects-section .project-container .p-title,
+.projects-section .project-container .p-description,
+.projects-section .project-container .p-tecnologies {
   padding: 10px;
 }
 .projects-section .project-container .p-title {
   font-size: 22px;
   padding-bottom: 50px;
-  color: #E2E2E2;
+  color: #e2e2e2;
   font-weight: 500;
 }
 .projects-section .project-container .p-description {
-  color: #B9B9B9;
+  color: #b9b9b9;
 }
 .projects-section .project-container .p-tecnologies {
   display: flex;
@@ -186,12 +188,12 @@ section, header {
   font-size: 22px;
 }
 .projects-section .project-container .project-buttons .repo {
-  border-color: #FF3717;
-  background: #FF3717;
+  border-color: #ff3717;
+  background: #ff3717;
 }
 .projects-section .project-container .project-buttons .demo {
-  border-color: #FF3717;
-  color: #FF3717;
+  border-color: #ff3717;
+  color: #ff3717;
 }
 .projects-section .project-container .project-pic {
   border-radius: 12px;
@@ -215,7 +217,7 @@ section, header {
   padding: 10px 20px;
   border-radius: 12px;
   border: none;
-  background: #FF3717;
+  background: #ff3717;
   color: #fff;
   font-weight: 600;
   font-size: 16px;
@@ -228,12 +230,12 @@ section, header {
   line-height: 50px;
   font-size: 45px;
   width: 180px;
-  color: #D9D9D9;
+  color: #d9d9d9;
   margin: 30px 0;
   font-weight: 600;
 }
 .contact-section p {
-  color: #E2E2E2;
+  color: #e2e2e2;
   font-size: 16px;
   font-weight: normal;
   line-height: 26px;
@@ -256,10 +258,10 @@ section, header {
   flex-direction: column;
   width: 135px;
   height: 131px;
-  background: #181A1B;
+  background: #181a1b;
   box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.08);
   border-radius: 12px;
 }
 .contact-section .contact-buttons .contact .contact-image-container img {
   height: 80px;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */

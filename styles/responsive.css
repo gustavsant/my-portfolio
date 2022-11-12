@@ -1,4 +1,4 @@
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
   body header img {
     width: 190px;
     height: 90px;
@@ -17,14 +17,14 @@
     font-size: 45px;
   }
   body .home-section .illustration {
-    height: 514px;
+    height: 450px;
   }
   body .about-section {
     display: grid;
     grid-template-areas:
       'title title'
       'desc tecs';
-    margin-top: -100px;
+    margin-top: -80px;
   }
   body .about-section h2 {
     margin: 0;
@@ -41,7 +41,28 @@
   }
   body .about-section .tecs {
     grid-area: tecs;
+    padding-right: 50px;
     align-items: center;
-    justify-items: center;
+    justify-items: start;
+    margin-top: 0;
+  }
+  body .about-section .tecs .tecs-grid {
+    display: flex;
+  }
+  body .home-section .scroll-down-flag {
+    right: 50%;
+  }
+  body .projects-section {
+    height: 730px;
+  }
+  body .projects-section .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  body .projects-section .projects .project-container {
+    width: 400px;
+  }
+  body .projects-section .project-container .p-description {
+    height: 125px;
   }
 } /*# sourceMappingURL=responsive.css.map */
