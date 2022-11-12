@@ -1,0 +1,47 @@
+@media (max-width: 1440px) {
+  body header img {
+    width: 190px;
+    height: 90px;
+  }
+  body .home-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+  }
+  body .home-section p {
+    width: 600px;
+    font-size: 40px;
+  }
+  body .home-section p strong {
+    font-size: 45px;
+  }
+  body .home-section .illustration {
+    height: 514px;
+  }
+  body .about-section {
+    display: grid;
+    grid-template-areas:
+      'title title'
+      'desc tecs';
+    margin-top: -100px;
+  }
+  body .about-section h2 {
+    margin: 0;
+    grid-area: title;
+    font-size: 44px;
+    width: auto;
+  }
+  body .about-section p {
+    grid-area: desc;
+    width: 765px;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: normal;
+  }
+  body .about-section .tecs {
+    grid-area: tecs;
+    align-items: center;
+    justify-items: center;
+  }
+} /*# sourceMappingURL=responsive.css.map */
