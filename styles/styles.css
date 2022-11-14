@@ -265,3 +265,6 @@ header {
 .contact-section .contact-buttons .contact .contact-image-container img {
   height: 80px;
 } /*# sourceMappingURL=styles.css.map */
+.contact-section .contact-button a {
+  max-width: 135px;
+}
