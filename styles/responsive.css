@@ -1,7 +1,6 @@
 @media (min-width: 1440px) {
   body header img {
-    width: 190px;
-    height: 90px;
+    width: 150px;
   }
   body .home-section {
     display: flex;
@@ -17,7 +16,7 @@
     font-size: 45px;
   }
   body .home-section .illustration {
-    height: 450px;
+    height: 4;
   }
   body .about-section {
     display: grid;
@@ -30,7 +29,7 @@
     margin: 0;
     grid-area: title;
     font-size: 44px;
-    width: auto;
+    text-align: start;
   }
   body .about-section p {
     grid-area: desc;
@@ -64,5 +63,11 @@
   }
   body .projects-section .project-container .p-description {
     height: 125px;
+  }
+  .contact-section .contact-buttons .contact .contact-image-container {
+    width: auto;
+  }
+  .contact-section p {
+    text-align: center;
   }
 } /*# sourceMappingURL=responsive.css.map */
