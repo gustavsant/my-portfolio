@@ -7,7 +7,7 @@ import Footer from './assets/components/Footer'
 
 export default function App() {
   return (
-    <div className="bg-nicewhite flex flex-col items-center snap-y snap-mandatory">
+    <div className="bg-nicewhite dark:bg-semiblack flex flex-col items-center snap-y snap-mandatory">
       <Home />
       <Header />
       <About />
