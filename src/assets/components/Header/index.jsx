@@ -17,7 +17,7 @@ export default function Header() {
   }
   function handleMenu() {
     const menuUl = document.querySelector('.menulist')
-    menuUl.classList.toggle('-right-80')
+    menuUl.classList.toggle('-right-[1000px]')
     menuUl.classList.toggle('right-0')
   }
   return (
@@ -32,7 +32,7 @@ export default function Header() {
           <div className="w-8 h-1 bg-semiblack dark:bg-nicewhite"></div>
           <div className="w-8 h-1 bg-semiblack dark:bg-nicewhite"></div>
         </button>
-        <ul className="flex transition-all z-40 menulist flex-col border-l border-l-semiblack dark:border-l-nicewhite md:border-0 md:flex-row md:static absolute w-2/4 h-screen md:h-auto top-0 md:bg-transparent bg-nicewhite md:dark:bg-transparent dark:bg-semiblack px-4 md:px-0 py-10 md:py-0 -right-80 md:justify-end justify-center items-end gap-10">
+        <ul className="flex transition-all z-40 menulist flex-col border-l border-l-semiblack dark:border-l-nicewhite md:border-0 md:flex-row md:static absolute w-2/4 h-screen md:h-auto top-0 md:bg-transparent bg-nicewhite md:dark:bg-transparent dark:bg-semiblack px-4 md:px-0 py-10 md:py-0 -right-[1000px] md:justify-end justify-center items-end gap-10">
           <li className=" text-lg md:mx-0">
             <a href="#about">About</a>
           </li>

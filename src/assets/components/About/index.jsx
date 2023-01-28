@@ -1,3 +1,4 @@
+import CV from '../../../assets/GustavoRodriguesDaSilvaSantana.pdf'
 export default function About() {
   return (
     <>
@@ -22,7 +23,7 @@ export default function About() {
         </p>
         <div className="flex gap-7 md:flex-row flex-col">
           <a
-            href="../../../../public/Gustavo Rodrigues da Silva Santana.pdf"
+            href={CV}
             className="border border-semiblack dark:border-nicewhite px-7 py-2"
             download
           >

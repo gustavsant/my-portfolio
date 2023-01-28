@@ -7,13 +7,9 @@ export default function Contact() {
   const [isHover, setIsHover] = useState('hidden')
 
   function handleOnClick() {
-    if (isHover === 'hidden') {
-      setIsHover(
-        'floating absolute transition-all p-2 -bottom-16 bg-nicewhite dark:bg-semiblack border border-semiblack dark:border-nicewhite'
-      )
-    } else {
-      setIsHover('hidden')
-    }
+    const emailspan = document.querySelector('.email')
+    emailspan.classList.remove('hidden')
+    navigator.clipboard.writeText('gustavosant3301@gmail.com')
   }
 
   return (
@@ -46,13 +42,10 @@ export default function Contact() {
 
           <button
             onClick={handleOnClick}
-            className="h-24 relative w-24 flex p-4 justify-center items-center border border-semiblack dark:border-nicewhite"
+            className="h-24 w-24 flex p-2 flex-col justify-center items-center border border-semiblack dark:border-nicewhite"
           >
             <MailLogo />
-            <div className={isHover}>
-              <p className="text-[11px]">Click to copy</p>
-              <span>gustavosant3301@gmail.com</span>
-            </div>
+            <p className="email text-[11px] hidden -mt-3">Copied!</p>
           </button>
         </div>
       </div>
