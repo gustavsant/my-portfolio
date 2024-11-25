@@ -1,5 +1,6 @@
 import CV from '../../../assets/GustavoRodriguesDaSilvaSantana.pdf'
 export default function About() {
+  const myAge = new Date().getFullYear() - 2002
   return (
     <>
       <div
@@ -10,7 +11,7 @@ export default function About() {
           Who i am?
         </h1>
         <p className="text-lightgrey md:leading-normal text-lg md:text-xl mb-16">
-          I’m Gustavo Santana, a 20 years old{' '}
+          I’m Gustavo Santana, a {myAge} years old{' '}
           <span className="dark:text-tomato text-nicegreen">
             Front End Developer
           </span>{' '}
